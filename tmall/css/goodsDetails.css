@@ -1,0 +1,274 @@
+body{
+	font: 12px/1.5 "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
+	background: #f5f5f5;
+}
+
+fieldset,input,button{
+	border: none;
+}
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+	display: list-item;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+	vertical-align: middle;
+}
+
+/*顶部导航site-nav开始------*/
+#site-nav{
+	height: 32px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+}
+.welcome{
+    color: #c40000;
+}
+.login-info{
+	float: left;
+}
+.sn-quick-menu{
+	float: right;
+}
+
+.sn-container a{
+	color: #999;
+}
+.sn-container a:hover{
+	color: rgb(170, 42, 42);
+}
+.menu-item a:hover{
+	text-decoration: underline;
+}
+.menu-item:hover{
+	background: #fff;
+}
+
+/*登录信息部分--------*/
+.login-info em{
+	padding-right: 10px;
+
+}
+.login-info a{
+	padding: 0 10px;
+}
+.login-info .sn-icon{
+	left: 0;
+}
+/*登录信息部分结束--------*/
+/*快速导航部分开始 --------*/
+.sn-quick-menu>li{
+	float: left;
+	position: relative;
+}
+.sn-quick-menu>li>a{
+	display: inline-block;
+	padding: 0 14px 0 10px;
+}
+/*顶部导航site-nav结束*/
+
+/*产品图片样式 start*/
+div.imgAndInfo {
+	margin : 40px 20px;
+}
+div.imgAndInfoCenter {
+	max-width : 1050px;
+	margin    : 0 auto;
+}
+div.imgInimgAndInfo {
+	width : 400px;
+	float : left;
+	/*向左漂浮，这样可以水平摆放，
+	为的是和右边的基本信息保持水平摆放关系。
+	在本知识点，暂时看不到右边的基本信息*/
+}
+div.imgInimgAndInfo img.bigImage {
+	width  : 400px;
+	height  : 400px;
+	padding : 0px;
+	border  : 1px solid #F2F2F2;
+}
+/*产品图片样式 end*/
+
+/*基本信息 start*/
+div.imgAndInfo {
+	margin : 40px 20px;
+}
+div.infoInimgAndInfo {
+	padding  : 0px 20px;
+	overflow : hidden;
+}
+div.infoInimgAndInfo div.productTitle {
+	color       : black;
+	font-size   : 16px;
+	font-weight : bold;
+	margin      : 0px 10px;
+}
+
+div.productPriceDiv div.originalDiv {
+	margin-top : 5px;
+}
+
+div.infoInimgAndInfo span.originalPriceDesc{
+	color   : #999999;
+	display : inline-block;
+	/*显示为内联，既可以设置大小，又能够不换行*/
+	width   : 68px;
+}
+div.infoInimgAndInfo span.originalPrice {
+	color           : #333333;
+	text-decoration : line-through;
+}
+div.infoInimgAndInfo span.promotionPriceYuan {
+	color     : #c40000;
+	font-size : 18px;
+}
+div.infoInimgAndInfo span.promotionPrice {
+	color       : #c40000;
+	font-size   : 30px;
+	font-weight : bold;
+}
+div.infoInimgAndInfo span.promotionPriceDesc {
+	color    : #999999;
+	display  : inline-block;
+	width    : 68px;
+	/*position : relative;*/
+	left     : 0;
+	top      : 10px;
+}
+
+div.infoInimgAndInfo div.productNumber {
+	color : #999999;
+}
+div.infoInimgAndInfo span.productNumberSettingSpan input {
+	border      : 1px solid #999;
+	display     : inline-block;
+	width       : 43px;
+	height      : 32px;
+	padding-top : 7px;
+}
+div.infoInimgAndInfo input.productNumberSetting {
+	border : 0px;
+	height : 80%;
+	width  : 80%;
+}
+div.productNumber span.productNumberSettingSpan a.increaseNumber {
+	display     : block;
+	border      : 1px solid #999;
+	width       : 20px;
+	height      : 14px;
+	text-align  : center;
+	line-height : 14px;
+}
+div.productNumber span.productNumberSettingSpan a.decreaseNumber {
+	display     : block;
+	border      : 1px solid #999;
+	width       : 20px;
+	height      : 14px;
+	text-align  : center;
+	line-height : 14px;
+}
+div.productNumber span.productNumberSettingSpan span.updownMiddle {
+	height  : 4px;
+	display : block;
+}
+div.productNumber span.arrow {
+	display        : inline-block;
+	width          : 20px;
+	height         : 32px;
+	vertical-align : top;
+}
+
+div.buyDiv button {
+	display : inline-block;
+	margin  : 0 10px;
+	width   : 180px;
+	height  : 40px;
+}
+button.buyButton {
+	border           :1px solid #c40000;
+	background-color : #FFeded;
+	text-align       : center;
+	line-height      : 40px;
+	font-size        : 16px;
+	color            : #c40000;
+	font-family      : Arial;
+}
+button.addCartButton {
+	border           :1px solid #c40000;
+	background-color : #c40000;
+	text-align       : center;
+	line-height      : 40px;
+	font-size        : 16px;
+	color            : white;
+	font-family      : arial;
+}
+button.addCartButton span.glyphicon {
+	font-size    : 12px;
+	margin-right : 8px;
+}
+div.imgAndInfo a:hover {
+	text-decoration : none;
+}
+.redColor {
+	color : #c40000;
+}
+.boldWord {
+	font-weight : bold;
+}
+/*基本信息 end */
+
+/*页脚 start*/
+.endimg{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.tmall-desc{
+    width:100;
+    padding-left: 100px;
+}
+div.footer {
+	border-top : 1px solid #e7e7e7;
+	margin     : 0;
+}
+div.footer_desc {
+	margin      : 24px auto 0px auto;	
+}
+div.copyRight {
+	background-color : black;
+	border-top       : 2px solid #c40000;
+}
+div.copyRightCenter {
+	max-width : 1013px;
+	margin-left: 100px;
+	position  : relative;
+}
+div.copyRight span.slash {
+	color : white;
+}
+div.copyRight div.white_link {
+	color   : white;
+	padding : 0 5px;
+}
+div.white_link {
+	margin : 10px 10px;
+}
+div.license {
+	margin-left    : 10px;
+	padding-bottom : 30px;
+}
+div.license span {
+	color : #A4A4A4;
+}
+div.copyRightYear {
+	margin : 10px 0px;
+	color  : #686868;
+}
+/*页脚 end*/

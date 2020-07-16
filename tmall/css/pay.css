@@ -1,0 +1,82 @@
+/*支付页面 start*/
+.pull-left{
+    display: block;
+    float: left;
+}
+div.aliPayPageDiv {
+	max-width: 1013px;
+	margin: 10px auto;
+}
+div.aliPayPageDiv div.scanningForPay {
+	margin: 20px auto;
+	width: 100px;
+}
+div.aliPayPageDiv div.scanningForPay span.confirmMoneyText {
+	font-size  : 12px;
+	color      : #4d4d4d;
+	display    : block;
+	margin-top : 20px;
+}
+div.aliPayPageDiv div.scanningForPay span.confirmMoney {
+	color      : #ff6600;
+	font-size  : 20px;
+	display    : block;
+	margin-top : 15px;
+	font-family: arial;
+	font-weight: 700;
+}
+div.aliPayPageDiv div img {
+	display : block;
+	width   : 184px;
+	margin  : 29px auto;
+}
+/*支付页面 end*/
+
+/*页脚 start*/
+.endimg{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.tmall-desc{
+    width:100;
+    padding-left: 100px;
+}
+div.footer {
+	border-top : 1px solid #e7e7e7;
+	margin     : 0;
+}
+div.footer_desc {
+	margin      : 24px auto 0px auto;	
+}
+div.copyRight {
+	background-color : black;
+	border-top       : 2px solid #c40000;
+}
+div.copyRightCenter {
+	max-width : 1013px;
+	margin-left: 100px;
+	position  : relative;
+}
+div.copyRight span.slash {
+	color : white;
+}
+div.copyRight div.white_link {
+	color   : white;
+	padding : 0 5px;
+}
+div.white_link {
+	margin : 10px 10px;
+}
+div.license {
+	margin-left    : 10px;
+	padding-bottom : 30px;
+}
+div.license span {
+	color : #A4A4A4;
+}
+div.copyRightYear {
+	margin : 10px 0px;
+	color  : #686868;
+}
+/*页脚 end*/

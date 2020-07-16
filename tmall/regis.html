@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天猫注册</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/regis.css">
+	<script type="text/javascript" src="js/regis.js" id="cb"></script>
+</head>
+<body id="regis">
+    <div id="header">
+		<h1><a href="index.html"><img src="img/logo.png" alt="天猫Tmall"></a></h1>
+	</div>
+	<div id="content">
+		<div class="regis-ad" >
+			<img class="regis-img" src="img/bg.png">
+		</div>
+		<div id="regis-box">
+			<div class="way regis-account">
+				<div class="regis-tip">
+					<h4>用户注册</h4>
+				</div>
+				<form id="account-form" method="post">
+					<div>
+						<input type="text" name="username" id="username" placeholder="新建用户名">
+					</div>
+					<div>
+						<input type="password" name="password" id="password" placeholder="输入密码">
+					</div>
+					<!-- <div>
+						<input type="password" name="password" id="password" placeholder="确认密码">
+					</div> -->
+					<input type="button" id="regis-btn" name="submit" value="注 册" onclick="register()">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

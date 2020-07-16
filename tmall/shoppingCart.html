@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的购物车</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/shoppingCart.css">
+    <script type="text/javascript" src="js/shoppingCart.js"></script>
+</head>
+<body>
+    <!-- start site-nav -->
+	<div id="site-nav">
+        <div class="container sn-container">         
+            <p class="login-info default">
+                <em class="welcome">喵，欢迎来到天猫</em>&emsp;&emsp;&emsp;
+				<a id="username" href="login.html" target="_top">请登录</a>
+				<a id="outOrRes" onclick="outOrRegis()" target="_top">免费注册</a>
+            </p>
+            <ul class="sn-quick-menu">
+                <li class="sn-cart">
+					<a href="shoppingCart.html" target="_top">购物车</a>
+				</li>
+                <li class="sn-orders">
+					<a href="orderHis.html" target="_top">历史订单</a>
+				</li>
+            </ul>
+        </div>
+	</div>
+	
+	<h2 class="title">我的购物车</h2>
+
+	<!-- 购物车内容 start -->
+	<div id="car" class="car">
+		<div class="head_row hid">
+			<div class="check left"> <i onclick="checkAll()">√</i></div>
+			<div class="img left">&nbsp;&nbsp;全选</div>
+			<div class="name left">商品名称</div>
+			<div class="price left">单价</div>
+			<div class="number left">数量</div>
+			<div class="subtotal left">小计</div>
+			<div class="ctrl left">操作</div>
+		</div>
+	</div>
+
+	<div id="sum_area" >
+		<div id="pay" onclick="addToOrder()">去结算</div>
+		<div id="pay_amout" >合计：<span id="price_num">0</span>元</div>
+	</div>
+    <!-- 购物车内容 end -->
+
+    <!-- 页脚 begin -->
+    <br><br>
+    <img class="endimg" src="img/end.png">
+	<div class="footer" id="footer">
+		<div class="footer_desc" id="footer_desc">
+			<img class="tmall-desc" src="img/tmall-desc.png" >
+		</div>
+		<div style="clear:both"></div>
+		<div class="copyRight" id="copyRight">
+			<div class="copyRightCenter">
+				<div class="license">
+		            <span>同济大学软件学院2020-Web系统与技术 平时作业</span><br>
+		            <span>1751139</span>
+		            <span>程伊楠 </span>
+		        </div>
+	        </div>
+		</div>
+	</div>
+	<!-- 页脚 end -->
+</body>

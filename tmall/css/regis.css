@@ -1,0 +1,96 @@
+#regis{
+	min-width: 990px;
+	background: #fff;
+}
+#regis #header{
+	width: 1190px;
+	height: 44px;
+	padding: 22px 0;
+	margin: auto; 
+	line-height: 44px;
+} 
+#regis #content{
+	position: relative;
+	margin-bottom: 40px;
+	background: #eee;
+}
+.regis-img{
+	width: 1424px;
+	height: 650px;
+}
+
+/*---------------------------*/
+/*登录框开始-----------------*/
+#regis-box{
+	position: absolute;
+	top: 150px;
+	right: 130px;
+	width: 350px;
+	height: 354px;
+	background: #fff;
+}
+.way{
+	padding: 25px 26px 20px;
+}
+/*登录部分的顶部提示*/
+.regis-tip h4{
+	height: 18px;
+	margin-top: 16px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	color: #3c3c3c;
+}
+
+/*账号密码登录方式部分*/
+#account-form div{
+	position: relative;
+	margin-bottom: 25px;
+}
+#account-form label{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #606060;
+	background: #ddd;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+}
+#account-form .iconfont{
+	font-size: 20px;
+}
+#clear-icon{
+	font-size: 16px;
+	position: absolute;
+	top: 8px;
+	right: 5px;
+	color: #ccc;
+	cursor: pointer;
+	display: none;
+}
+#account-form input{
+	width: 240px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	padding: 11px 8px 11px 10px;
+	border: 1px solid #bbb;
+}
+#account-form #regis-btn{
+	width: 300px;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	background: #AF0000;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#account-form #regis-btn:hover{
+	background: #c40000;
+}

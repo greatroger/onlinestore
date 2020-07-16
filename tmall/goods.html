@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天猫tmall.com--上天猫，就够了</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/goods.css">
+    <script type="text/javascript" src="js/goods.js"></script>
+</head>
+<body>
+    <!-- start site-nav -->
+	<div id="site-nav">
+        <div class="container sn-container">         
+            <p class="login-info default">
+                <em class="welcome">喵，欢迎来到天猫</em>&emsp;&emsp;&emsp;
+				<a id="username" href="login.html" target="_top">请登录</a>
+				<a id="outOrRes" onclick="outOrRegis()" target="_top">免费注册</a>
+            </p>
+            <ul class="sn-quick-menu">
+                <li class="sn-cart">
+					<a href="shoppingCart.html" target="_top">购物车</a>
+				</li>
+                <li class="sn-orders">
+					<a href="orderHis.html" target="_top">历史订单</a>
+				</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- content -->
+	<div id="content">
+        <!-- end site-nav -->
+        <!-- catagory -->
+        <div id="category">
+            <div class="cg-content">
+                <div class="cg-title">
+                    <h2>商品分类</h2>
+                </div>
+                <ul class="cg-tab" id="cg-tab">
+                    <li class="nav-item nav-item0">
+                        <a href="#">女装/</a><a href="#">内衣</a>
+                    </li>
+                    <li class="nav-item nav-item1">
+                        <a href="#">男装/</a><a href="#">运动户外</a>
+                    </li>
+                    <li class="nav-item nav-item2">
+                        <a href="#">女鞋/</a><a href="#">男鞋/</a><a href="#">箱包</a>
+                    </li>
+                    <li class="nav-item nav-item3">
+                        <a href="#">化妆品/</a><a href="#">个人护理</a>
+                    </li>
+                    <li class="nav-item nav-item4">
+                        <a href="#">腕表/</a><a href="#">珠宝饰品/</a><a href="#">眼镜</a>
+                    </li>
+                    <li class="nav-item nav-item5">
+                        <a href="#">手机/</a><a href="#">数码/</a><a href="#">电脑办公</a>
+                    </li>
+                    <li class="nav-item nav-item6">
+                        <a href="#">母婴玩具</a>
+                    </li>
+                    <li class="nav-item nav-item7">
+                        <a href="#">零食/</a><a href="#">进口食品/</a><a href="#">茶酒</a>
+                    </li>
+                    <li class="nav-item nav-item8">
+                        <a href="#">生鲜水果</a>
+                    </li>
+                    <li class="nav-item nav-item9">
+                        <a href="#">大家电/</a><a href="#">生活电器</a>
+                    </li>
+                    <li class="nav-item nav-item10">
+                        <a href="#">家具器材</a>
+                    </li>
+                    <li class="nav-item nav-item11">
+                        <a href="#">汽车/</a><a href="#">配件/</a><a href="#">用品</a>
+                    </li>
+                    <li class="nav-item nav-item12">
+                        <a href="#">家纺/</a><a href="#">家饰/</a><a href="#">鲜花</a>
+                    </li>
+                    <li class="nav-item nav-item13">
+                        <a href="#">医药保健</a>
+                    </li>
+                    <li class="nav-item nav-item14">
+                        <a href="#">厨具/</a><a href="#">收纳/</a><a href="#">宠物</a>
+                    </li>
+                    <li class="nav-item nav-item15">
+                        <a href="#">图书音像</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end category -->
+        <!-- banner -->
+		<div id="banner">
+			<div ><!-- 宽度100%纯色背景层 -->	
+				<img class="banner_img" src="img/banner1.jpg">	
+			</div>
+			
+        </div>
+        <!-- banner end -->
+        <h2>
+            <span id="text-line">——商 品 展 示——</span>
+        </h2>
+        <!-- goods begin-->
+        <div id="goods">
+            <div class="goods_container">
+                <ul class="displayline">
+                    <li class="displayitem" tag="tag1" onclick="getDetail(this)">
+                        <img src="img/goods/computer.jpg"> 
+                        <h3>华为matebook14笔记本电脑</h3>                      
+                    </li>
+                    <li class="displayitem" tag="tag2" onclick="getDetail(this)">
+                        <img src="img/goods/java_book.jpg">
+                        <h3>java自学书籍</h3> 
+                    </li>
+                    <li class="displayitem" tag="tag3" onclick="getDetail(this)">
+                        <img src="img/goods/mouse.jpg">
+                        <h3>罗技鼠标</h3> 
+                    </li>
+                    <li class="displayitem" tag="tag4" onclick="getDetail(this)">
+                        <img src="img/goods/guitar.jpg">
+                        <h3>雅马哈木吉他</h3> 
+                    </li>
+                    <li class="displayitem" tag="tag5" onclick="getDetail(this)">
+                        <img src="img/goods/watch.jpg">
+                        <h3>故宫纪念品手表</h3> 
+                    </li>
+                </ul>
+                <ul class="displayline">
+                    <li class="displayitem" tag="tag6" onclick="getDetail(this)">
+                        <img src="img/goods/bottle.jpg">
+                        <h3>thermos保温杯</h3> 
+                    </li>
+                    <li class="displayitem" tag="tag7" onclick="getDetail(this)">  
+                        <img src="img/goods/bat.jpg">
+                        <h3>李宁羽毛球拍</h3> 
+                    </li>
+                    <li class="displayitem" tag="tag8" onclick="getDetail(this)">
+                        <img src="img/goods/lipstick.jpg">
+                        <h3>MAC口红套装</h3> 
+                    </li>
+                    <li class="displayitem" tag="tag9" onclick="getDetail(this)">
+                        <img src="img/goods/switch.jpg">
+                        <h3>任天堂switch游戏机</h3> 
+                    </li>
+                    <li class="displayitem" tag="tag10" onclick="getDetail(this)">
+                        <img src="img/goods/shoes.jpg">
+                        <h3>NIKE运动鞋</h3> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- goods end-->
+	</div>
+    <!-- 页脚 begin -->
+    <br>
+    <br>
+	<div class="footer" id="footer">
+		<div class="footer_desc" id="footer_desc">
+			<img class="tmall-desc" src="img/tmall-desc.png" >
+		</div>
+		<div style="clear:both"></div>
+		<div class="copyRight" id="copyRight">
+			<div class="copyRightCenter">
+				<div class="license">
+		            <span>同济大学软件学院2020-Web系统与技术 平时作业</span><br>
+		            <span>1751139</span>
+		            <span>程伊楠 </span>
+		        </div>
+	        </div>
+		</div>
+	</div>
+    <!-- 页脚 end -->
+    
+</body>

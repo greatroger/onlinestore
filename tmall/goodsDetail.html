@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>产品页面</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/goodsDetails.css">
+	<script type="text/javascript" src="js/goodsDetail.js"></script>
+</head>
+<body>
+    <!-- start site-nav -->
+	<div id="site-nav">
+        <div class="container sn-container">         
+            <p class="login-info default">
+                <em class="welcome">喵，欢迎来到天猫</em>&emsp;&emsp;&emsp;
+				<a id="username" href="login.html" target="_top">请登录</a>
+				<a id="outOrRes" onclick="outOrRegis()" target="_top">免费注册</a>
+            </p>
+            <ul class="sn-quick-menu">
+                <li class="sn-cart">
+					<a href="shoppingCart.html" target="_top">购物车</a>
+				</li>
+                <li class="sn-orders">
+					<a href="orderHis.html" target="_top">历史订单</a>
+				</li>
+            </ul>
+        </div>
+    </div>
+    <!-- end site-nav -->
+    <!--content start-->
+    <div class="imgAndInfo">
+		<div class="imgAndInfoCenter">
+			<div class="imgInimgAndInfo">
+                <img id="goodsimg" class="bigImage" src="img/goods/guitar.jpg">
+            </div>
+            <div class="infoInimgAndInfo">
+				<div id="description" class="productTitle">
+					吉他
+                </div>
+                <div class="productPrice">
+                    <div class="originalDiv">
+                        <span class="originalPriceDesc">
+                        价格</span>
+                        <span class="originalPriceYuan">¥</span>
+                        <span id="oriprice" class="originalPrice">
+                            399.00
+                        </span>
+                    </div>
+                    <div class="promotionDiv">
+                        <span class="promotionPriceDesc">促销价 </span>
+                        <span class="promotionPriceYuan">¥</span>
+                        <span id="price" class="promotionPrice">
+                            379.05
+                        </span>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="productNumber">
+                    <span>数量</span>
+		        	<span class="productNumberSettingSpan">
+		        		<span>
+		        			<input id="numText" type="text" name="" value="1" class="productNumberSetting">
+		        		</span>
+		        		<span class="arrow">
+		        			<a class="increaseNumber" href="#">
+			        			<span class="updown" onclick="numInc()">
+			        				<img src="img/increase.png" >
+			        			</span>
+		        			</a>
+		        			<span class="updownMiddle"></span>
+		        			<a class="decreaseNumber" href="#">
+			        			<span class="updown" onclick="numDec()">
+			        				<img src="img/decrease.png" >
+			        			</span>
+		        			</a>
+		        		</span>
+		        	</span>
+                </div>
+                <br><br><br><br>
+                <div class="buyDiv">
+		            <a href="#nowhere" class="buyLink">
+			            <button class="buyButton" onclick="buyImme()">立即购买</button>
+		            </a>
+		            <a class="addCartLink" href="#nowhere">
+			            <button class="addCartButton" onclick="addCart()">
+				            <span class="glyphicon glyphicon-shopping-cart"></span>
+				            加入购物车
+			            </button>
+		            </a>
+		        </div>
+            </div>           
+        </div>
+    </div>
+    <!--content end-->
+    <!-- 页脚 begin -->
+    <br><br><br><br><br><br>
+    <img class="endimg" src="img/end.png">
+	<div class="footer" id="footer">
+		<div class="footer_desc" id="footer_desc">
+			<img class="tmall-desc" src="img/tmall-desc.png" >
+		</div>
+		<div style="clear:both"></div>
+		<div class="copyRight" id="copyRight">
+			<div class="copyRightCenter">
+				<div class="license">
+		            <span>同济大学软件学院2020-Web系统与技术 平时作业</span><br>
+		            <span>1751139</span>
+		            <span>程伊楠 </span>
+		        </div>
+	        </div>
+		</div>
+	</div>
+	<!-- 页脚 end -->
+</body>

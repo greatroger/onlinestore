@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: cynxsd
+    url: jdbc:mysql://122.152.202.227:3306/webstore?characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8111
